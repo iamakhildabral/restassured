@@ -91,6 +91,8 @@ public class HTTPRequest {
 		.then()
 			.statusCode(200)
 			.log().all();
+		
+		System.out.println("Getting Single user");
 	}
 	
 	
